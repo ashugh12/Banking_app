@@ -10,6 +10,7 @@ import {
     Sheet, SheetClose, SheetContent, SheetDescription,
     SheetHeader, SheetTitle, SheetTrigger,
 } from "@/components/ui/sheet"
+import Footer from './Footer'
 const MobileNav = ({ user }: MobileNavProps) => {
     const pathname = usePathname();
     return (
@@ -58,7 +59,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                                 USER
                             </nav>
                         </SheetClose>
-                        FOOTER
+                        <Footer user={user} type='mobile'/>
                     </div>
                 </SheetContent>
             </Sheet>
