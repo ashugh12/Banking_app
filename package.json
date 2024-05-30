@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "query-string": "^9.0.0"
+    "plaid": "^24.0.0",
+    "query-string": "^9.0.0",
+    "react-plaid-link": "^3.5.1"
   }
 }
