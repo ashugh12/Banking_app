@@ -28,7 +28,7 @@ const PlaidLink = ({ user, variant }: PlaidLinkProps) => {
     }, [user])
 
     const config: PlaidLinkOptions = {
-        token, onSuccess
+        token, onSuccess,
     }
     const { open, ready } = usePlaidLink(config)
     return (
@@ -36,7 +36,7 @@ const PlaidLink = ({ user, variant }: PlaidLinkProps) => {
             {
                 variant === 'primary' ? (
                     <Button
-                        onClick={()=>open()}
+                        onClick={() => open()}
                         disabled = {!ready}
                         className = "plaidlink-primary"
                     >
