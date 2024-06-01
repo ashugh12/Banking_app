@@ -55,7 +55,7 @@ declare type Account = {
   currentBalance: number;
   officialName: string;
   mask: string;
-  institutionId: string;
+  institutionId: string
   name: string;
   type: string;
   subtype: string;
@@ -125,16 +125,16 @@ declare type AddFundingSourceParams = {
 };
 
 declare type NewDwollaCustomerParams = {
-  firstName?: string;
-  lastName?: string;
-  email?: string;
-  type?: string;
-  address1?: string;
-  city?: string;
-  state?: string;
-  postalCode?: string;
-  dateOfBirth?: string;
-  ssn?: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  type: string;
+  address1: string;
+  city: string;
+  state: string;
+  postalCode: string;
+  dateOfBirth: string;
+  ssn: string;
 };
 
 declare interface CreditCardProps {
