@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.head-text-center{
+  margin-top: -40px;
+  margin-bottom: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input{
+  width:auto;
+  height: 40px;
+}
