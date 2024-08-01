@@ -19,6 +19,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Page /> */}
-    <BusinessLoanForm />
   </React.StrictMode>,
 )
