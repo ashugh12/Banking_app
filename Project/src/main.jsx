@@ -20,15 +20,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <App /> */}
     {/* <Page /> */}
     <BusinessLoanForm />
-    <EducationLoanForm />
-    <PersonalLoanForm />
-    <CarLoanForm />
-    <OldCarLoanForm />
-    <PropertyLoan />
-    <MudraLoanForm />
-    <SubsidyLoanForm />
-    <ODLLoanForm />
-    <FixedDepositLoanForm />
-    <CreditCardLoanForm />
   </React.StrictMode>,
 )
